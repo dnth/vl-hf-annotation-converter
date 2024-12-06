@@ -62,4 +62,5 @@ python inference.py
 
 Verify the results with the class names:
 
-0 is `jeans` and 1 is `vest`.
+- `0` - `jeans`
+- `1` - `vest`
