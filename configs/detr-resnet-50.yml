@@ -13,17 +13,17 @@ data:
     objects_column: objects
 
 params:
-  image_square_size: 480
-  epochs: 50
-  batch_size: 8
-  lr: 5e-5
+  image_square_size: 800
+  epochs: 300
+  batch_size: 2
+  lr: 1e-4
   weight_decay: 1e-4
   optimizer: adamw_torch
-  scheduler: linear
-  gradient_accumulation: 1
+  scheduler: cosine
+  gradient_accumulation: 4
   mixed_precision: fp16
-  early_stopping_patience: 50
-  early_stopping_threshold: 0.001
+  early_stopping_patience: 100
+  early_stopping_threshold: 0.0001
 
 hub:
   username: ${HF_USERNAME}

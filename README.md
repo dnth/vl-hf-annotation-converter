@@ -2,6 +2,8 @@
 
 Convert bounding box annotations exported from the [Visual Layer](https://app.visual-layer.com/) format to the [Hugging Face](https://huggingface.co/) format and train a model with AutoTrain.
 
+For a demo in this repo, I used a dataset from VL with 2 classes: `jeans` and `vest`.
+
 
 ## Convert on Hugging Face Spaces
 
@@ -47,3 +49,17 @@ tensorboard --logdir="autotrain-detr-resnet-50"
 You should see a screen like this on your browser (http://localhost:6006):
 
 ![Tensorboard](./assets/tensorboard.png)
+
+
+## Inference
+Once training is done, you can run inference with the following command:
+
+```bash
+python inference.py
+```
+
+![Inference](./assets/inference.png)
+
+Verify the results with the class names:
+
+0 is `jeans` and 1 is `vest`.
