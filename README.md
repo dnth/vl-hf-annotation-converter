@@ -43,7 +43,9 @@ pip install autotrain-advanced
 ```
 
 AutoTrain lets you train models with a simple command either on Hugging Face or locally.
-This demo proceeds with the local training. If you'd like to train on Hugging Face, you can follow the instructions [here](https://huggingface.co/autotrain). You will need to create an account and pay for the GPU.
+If you'd like to train on Hugging Face, you can follow the instructions [here](https://huggingface.co/autotrain). You will need to create an account and pay for the GPU.
+
+This demo proceeds with local training. 
 
 Export your Hugging Face username and token:
 
