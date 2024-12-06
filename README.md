@@ -39,6 +39,12 @@ python app.py
 The interface should be simliar to the one on Hugging Face Spaces.
 
 ## Train a model with AutoTrain
+[colab_badge]: https://img.shields.io/badge/Open%20In-Colab-blue?style=for-the-badge&logo=google-colab
+[kaggle_badge]: https://img.shields.io/badge/Open%20In-Kaggle-blue?style=for-the-badge&logo=kaggle
+
+[![Open In Colab][colab_badge]](https://colab.research.google.com/github/dnth/vl-hf-annotation-converter/blob/main/nbs/quickstart.ipynb)
+[![Open In Kaggle][kaggle_badge]](https://kaggle.com/kernels/welcome?src=https://github.com/dnth/vl-hf-annotation-converter/blob/main/nbs/quickstart.ipynb)
+
 Now that you have the JSONL file, you can train a model with [AutoTrain](https://github.com/huggingface/autotrain-advanced).
 
 Install the `autotrain-advanced` package:
@@ -93,9 +99,4 @@ Verify the results with the category mapping:
 - `1` - `vest`
 
 
-## Quick Start
-[colab_badge]: https://img.shields.io/badge/Open%20In-Colab-blue?style=for-the-badge&logo=google-colab
-[kaggle_badge]: https://img.shields.io/badge/Open%20In-Kaggle-blue?style=for-the-badge&logo=kaggle
 
-[![Open In Colab][colab_badge]](https://colab.research.google.com/github/dnth/vl-hf-annotation-converter/blob/main/nbs/quickstart.ipynb)
-[![Open In Kaggle][kaggle_badge]](https://kaggle.com/kernels/welcome?src=https://github.com/dnth/vl-hf-annotation-converter/blob/main/nbs/quickstart.ipynb)
