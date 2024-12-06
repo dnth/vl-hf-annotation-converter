@@ -83,6 +83,10 @@ You should see a screen like this on your browser (http://localhost:6006):
 
 ![Tensorboard](./assets/tensorboard.png)
 
+If you don't have a GPU, you can use the free GPU on Kaggle or Colab and run the quick start notebook.
+[![Open In Colab][colab_badge]](https://colab.research.google.com/github/dnth/vl-hf-annotation-converter/blob/main/nbs/quickstart.ipynb)
+[![Open In Kaggle][kaggle_badge]](https://kaggle.com/kernels/welcome?src=https://github.com/dnth/vl-hf-annotation-converter/blob/main/nbs/quickstart.ipynb)
+
 
 ## Inference
 Once training is done, you can run inference with the following command:
