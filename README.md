@@ -62,7 +62,7 @@ autotrain --config configs/detr-resnet-50.yml
 ```
 
 
-See the progerss on tensorboard:
+See the training progress on Tensorboard:
 
 ```bash
 tensorboard --logdir="autotrain-detr-resnet-50"
