@@ -1,6 +1,6 @@
 # VL to HF Annotation Converter
 
-Convert bounding box annotations exported from the [Visual Layer](https://app.visual-layer.com/) format to the [Hugging Face](https://huggingface.co/) format.
+Convert bounding box annotations exported from the [Visual Layer](https://app.visual-layer.com/) format to the [Hugging Face](https://huggingface.co/) format and train a model with AutoTrain.
 
 
 ## Convert on Hugging Face Spaces
