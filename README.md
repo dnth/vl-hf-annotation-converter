@@ -45,7 +45,7 @@ The interface should be simliar to the one on Hugging Face Spaces.
 [![Open In Colab][colab_badge]](https://colab.research.google.com/github/dnth/vl-hf-annotation-converter/blob/main/nbs/quickstart.ipynb)
 [![Open In Kaggle][kaggle_badge]](https://kaggle.com/kernels/welcome?src=https://github.com/dnth/vl-hf-annotation-converter/blob/main/nbs/quickstart.ipynb)
 
-Now that you have the JSONL file, you can train a model with [AutoTrain](https://github.com/huggingface/autotrain-advanced).
+Now that you have the JSONL file, you can train a model with [AutoTrain](https://github.com/huggingface/autotrain-advanced). You can run all the following commands in Google Colab or Kaggle.
 
 Install the `autotrain-advanced` package:
 
