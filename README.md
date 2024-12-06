@@ -10,25 +10,40 @@ And I exported the annotations in JSON format:
 
 ![annotations](./assets/export_vl.png)
 
-## Convert on Hugging Face Spaces
+## Convert JSON annotations to JSONL
+Once the export is done, you will have a zip file with the images and JSON annotations.
+You can now convert the JSON annotations either on Hugging Face Spaces or locally. 
+
+I recommend using the Hugging Face Spaces version because it's easier to use. Just upload the JSON file and you should get the JSONL file as a result.
+
+### Hugging Face Spaces
 
 https://huggingface.co/spaces/dnth/vl-hf-annotations-converter
 
 ![VL to HF Annotation Converter](./assets/hf_space.png)
 
-## Run the app locally
+Click on the Download JSONL button and and save it into the same folder as the JSON annotations.
+
+## Local Conversion
+If you prefer to convert the annotations locally, you can run the following command:
 
 ```bash
 pip install -r requirements.txt
 python app.py
 ```
+The interface should be simliar to the one on Hugging Face Spaces.
 
 ## Train a model with AutoTrain
-First, install the `autotrain-advanced` package:
+Now that you have the JSONL file, you can train a model with [AutoTrain](https://github.com/huggingface/autotrain-advanced).
+
+Install the `autotrain-advanced` package:
 
 ```bash
 pip install autotrain-advanced
 ```
+
+AutoTrain lets you train models with a simple command either on Hugging Face or locally.
+This demo proceeds with the local training. If you'd like to train on Hugging Face, you can follow the instructions [here](https://huggingface.co/autotrain). You will need to create an account and pay for the GPU.
 
 Export your Hugging Face username and token:
 
