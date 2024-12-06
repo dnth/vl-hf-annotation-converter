@@ -24,6 +24,11 @@ https://huggingface.co/spaces/dnth/vl-hf-annotations-converter
 
 Click on the Download JSONL button and and save it into the same folder as the JSON annotations.
 
+>[!TIP] 
+> Note the category mapping:
+> - `0` - `jeans`
+> - `1` - `vest`
+
 ### Local Conversion
 If you prefer to convert the annotations locally, you can run the following command:
 
@@ -82,7 +87,7 @@ python inference.py
 
 ![Inference](./assets/inference.png)
 
-Verify the results with the class names:
+Verify the results with the category mapping:
 
 - `0` - `jeans`
 - `1` - `vest`
