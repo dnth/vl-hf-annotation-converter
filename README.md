@@ -4,6 +4,11 @@ Convert bounding box annotations exported from the [Visual Layer](https://app.vi
 
 For a demo in this repo, I used a dataset from VL with 2 classes: `jeans` and `vest`.
 
+![samples](./assets/dataset_samples.png)
+
+And I exported the annotations in JSON format:
+
+![annotations](./assets/export_vl.png)
 
 ## Convert on Hugging Face Spaces
 
