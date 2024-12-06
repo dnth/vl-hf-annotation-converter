@@ -7,6 +7,8 @@ Convert bounding box annotations exported from the [Visual Layer](https://app.vi
 
 https://huggingface.co/spaces/dnth/vl-hf-annotations-converter
 
+![VL to HF Annotation Converter](./assets/hf_space.png)
+
 ## Run the app locally
 
 ```bash
